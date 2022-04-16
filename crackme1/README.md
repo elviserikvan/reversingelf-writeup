@@ -38,6 +38,6 @@ In really basic words, it's using the counter as an index to target one value in
 
 If you don't understand me, just read those instructions a few times until you get it, just remember that `rbp + rax - 0x90` is the array created by `memset` and `rbp + rax*4 - 0x70` is the array of constants.
 
-![Exit the program](images/printing_and_exiting.png "Print the flag and exit the program")
+![Exit the program](images/printing_and_exit.png "Print the flag and exit the program")
 
 After that, all that's left is to print the flag and exit the program
